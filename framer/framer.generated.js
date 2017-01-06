@@ -792,6 +792,33 @@ window.__imported__["sliced_framer@2x/layers.json.js"] = [
 		},
 		"children": [
 			{
+				"objectId": "61D1A31D-C1B9-472B-8820-C9AEBCE0F03C",
+				"kind": "group",
+				"name": "Wi_Fi",
+				"originalName": "Wi-Fi",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 135,
+					"y": 97,
+					"width": 25,
+					"height": 25
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-Wi_Fi-njfemuez.png",
+					"frame": {
+						"x": 135,
+						"y": 97,
+						"width": 25,
+						"height": 25
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "677A67EC-2EEA-4D2C-B4E6-E834EADEC235",
 				"kind": "group",
 				"name": "arrow",
@@ -841,6 +868,111 @@ window.__imported__["sliced_framer@2x/layers.json.js"] = [
 						"y": 34,
 						"width": 101,
 						"height": 33
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "D2F23D4D-A691-4901-AB99-4E55582E3152",
+				"kind": "text",
+				"name": "topdot00",
+				"originalName": "topdot00",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 176,
+					"y": 161,
+					"width": 30,
+					"height": 45
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "0",
+					"css": [
+						"/* 0: */",
+						"font-family: Avenir-Medium;",
+						"font-size: 60px;",
+						"color: #FFFFFF;",
+						"letter-spacing: 0;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-topdot00-rdjgmjne.png",
+					"frame": {
+						"x": 176,
+						"y": 161,
+						"width": 30,
+						"height": 45
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "EDE6ED34-D98A-47CD-B2AC-6B61B048DAD3",
+				"kind": "text",
+				"name": "topdot0",
+				"originalName": "topdot0",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 176,
+					"y": 161,
+					"width": 30,
+					"height": 45
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "0",
+					"css": [
+						"/* 0: */",
+						"font-family: Avenir-Medium;",
+						"font-size: 60px;",
+						"color: #FFFFFF;",
+						"letter-spacing: 0;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-topdot0-rurfnkve.png",
+					"frame": {
+						"x": 176,
+						"y": 161,
+						"width": 30,
+						"height": 45
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "6626086C-98B5-407E-AC35-69C75EAE1787",
+				"kind": "text",
+				"name": "topdot4",
+				"originalName": "topdot4",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 176,
+					"y": 157,
+					"width": 30,
+					"height": 43
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "4",
+					"css": [
+						"/* 4: */",
+						"font-family: Avenir-Medium;",
+						"font-size: 60px;",
+						"color: #FFFFFF;",
+						"letter-spacing: 0;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-topdot4-njyynja4.png",
+					"frame": {
+						"x": 176,
+						"y": 157,
+						"width": 30,
+						"height": 43
 					}
 				},
 				"children": []

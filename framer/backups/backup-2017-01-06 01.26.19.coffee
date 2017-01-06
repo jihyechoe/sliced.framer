@@ -3,14 +3,8 @@ sketch = Framer.Importer.load("imported/sliced_framer@2x")
 
 
 num1 = sketch.$1
-num2 = sketch.$2
-num3 = sketch.$3
-num4 = sketch.$4
-num5 = sketch.$5
 num6 = sketch.$6
 num7 = sketch.$7
-num8 = sketch.$8
-num9 = sketch.$9
 num0 = sketch.$0
 numdot = sketch.dot
 
@@ -29,6 +23,16 @@ top7 = sketch.top7
 top7.opacity = 0
 top7.x = 430
 top7.y = 260
+
+topdot0 = sketch.topdot0
+topdot00 = sketch.topdot00
+topdot0.opacity = 0
+topdot00.opacity = 0
+topdot0.x = 480
+topdot00.x = 530
+
+topdot6 = sketch.topdot6
+topdot6.opacity = 0
 
 num1.onClick (event, layer) ->
 	top0.states.a =
@@ -81,4 +85,36 @@ num7.onClick (event, layer) ->
 	top1.animate "c"
 	top6.animate "c"
 	top7.animate "c"
+	
+numdot.onClick (event, layer) ->
+	topdot00.states.d = 
+		x: 530
+		opacity: 0.7
+
+	topdot0.states.d = 
+		x: 480
+		opacity: 0.7
+	
+	top7.states.d = 
+		x: 380
+		scale: 0.80
+
+	top6.states.d = 
+		x: 290
+		scale: 0.80
+	
+	top1.states.d = 
+		x: 220
+		scale: 0.80
+	
+	top$.states.d = 
+		x: 150
+		scale: 0.80
+	
+	top$.animate "d"
+	top1.animate "d"
+	top6.animate "d"
+	top7.animate "d"
+	topdot0.animate "d"
+	topdot00.animate "d"
 	

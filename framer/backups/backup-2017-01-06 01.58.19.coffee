@@ -129,12 +129,12 @@ num4.onClick (event, layer) ->
 		y: 391
 		opacity: 0.00
 	
-	topdot4.states.e =
-		y: 328
-		opacity: 1
+# 	topdot4.states.e =
+# 		y: 328
+# 		opacity: 1
 
 	topdot0.animate "e"
-	topdot4.animate "e"
+# 	topdot4.animate "e"
 	
 back.onClick (event, layer) ->
 	topdot00.states.f = 

@@ -3,11 +3,9 @@ sketch = Framer.Importer.load("imported/sliced_framer@2x")
 
 
 num1 = sketch.$1
-num4 = sketch.$4
 num6 = sketch.$6
 num7 = sketch.$7
 num0 = sketch.$0
-back = sketch.back
 numdot = sketch.dot
 
 top$ = sketch.top$
@@ -35,10 +33,8 @@ topdot00.x = 570
 topdot0.y = 260
 topdot00.y = 260
 
-topdot4 = sketch.topdot4
-topdot4.x = 500
-topdot4.y = 260
-topdot4.opacity = 0
+topdot6 = sketch.topdot6
+topdot6.opacity = 0
 
 num1.onClick (event, layer) ->
 	top0.states.a =
@@ -94,10 +90,12 @@ num7.onClick (event, layer) ->
 	
 numdot.onClick (event, layer) ->
 	topdot00.states.d = 
+		x: 570
 		y: 325
 		opacity: 0.3
 
 	topdot0.states.d = 
+		x: 500
 		y: 325
 		opacity: 0.3
 	
@@ -124,46 +122,4 @@ numdot.onClick (event, layer) ->
 	topdot0.animate "d"
 	topdot00.animate "d"
 	
-num4.onClick (event, layer) ->
-	topdot0.states.e = 
-		y: 391
-		opacity: 0.00
-	
-	topdot4.states.e =
-		y: 328
-		opacity: 1
-
-	topdot0.animate "e"
-	topdot4.animate "e"
-	
-back.onClick (event, layer) ->
-	topdot00.states.f = 
-		y: 260
-		opacity: 0
-	
-	topdot4.states.f =
-		y: 260
-		opacity: 0
-
-	topdot00.animate "f"
-	topdot4.animate "f"
-	
-	top7.states.c =
-		x: 445
-
-	top6.states.c = 
-		x: 335
-	
-	top1.states.c = 
-		x: 250
-	
-	top$.states.c = 
-		x: 190
-
-	top7.animate "c"
-	top6.animate "c"
-	top1.animate "c"
-	top$.animate "c"
-	
-
-	
+top6.onClick (event, layer) ->

@@ -35,10 +35,10 @@ topdot00.x = 570
 topdot0.y = 260
 topdot00.y = 260
 
-topdot4 = sketch.topdot4
-topdot4.x = 500
-topdot4.y = 260
-topdot4.opacity = 0
+topdot6 = sketch.topdot6
+topdot6.x = 500
+topdot6.y = 260
+topdot6.opacity = 0
 
 num1.onClick (event, layer) ->
 	top0.states.a =
@@ -129,24 +129,24 @@ num4.onClick (event, layer) ->
 		y: 391
 		opacity: 0.00
 	
-	topdot4.states.e =
+	topdot6.states.e =
 		y: 328
 		opacity: 1
 
 	topdot0.animate "e"
-	topdot4.animate "e"
+	topdot6.animate "e"
 	
 back.onClick (event, layer) ->
 	topdot00.states.f = 
 		y: 260
 		opacity: 0
 	
-	topdot4.states.f =
+	topdot6.states.f =
 		y: 260
 		opacity: 0
 
 	topdot00.animate "f"
-	topdot4.animate "f"
+	topdot6.animate "f"
 	
 	top7.states.c =
 		x: 445
