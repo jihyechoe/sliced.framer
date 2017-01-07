@@ -164,12 +164,8 @@ num4.onClick (event, layer) ->
 		y: 328
 		opacity: 1
 
-	topdot0.animate "e",
-		time: 0.50
-		curve: "ease"
-	topdot4.animate "e",
-		time: 0.50
-		curve: "ease"
+	topdot0.animate "e"
+	topdot4.animate "e"
 	
 back.onClick (event, layer) ->
 	topdot00.states.f = 
@@ -180,12 +176,8 @@ back.onClick (event, layer) ->
 		y: 260
 		opacity: 0
 
-	topdot00.animate "f",
-		time: 0.50
-		curve: "ease"
-	topdot4.animate "f",
-		time: 0.50
-		curve: "ease"
+	topdot00.animate "f"
+	topdot4.animate "f"
 	
 	top7.states.c =
 		x: 445
@@ -199,18 +191,10 @@ back.onClick (event, layer) ->
 	top$.states.c = 
 		x: 190
 
-	top7.animate "c",
-		time: 0.50
-		curve: "ease"
-	top6.animate "c",
-		time: 0.50
-		curve: "ease"
-	top1.animate "c",
-		time: 0.50
-		curve: "ease"
-	top$.animate "c",
-		time: 0.50
-		curve: "ease"
+	top7.animate "c"
+	top6.animate "c"
+	top1.animate "c"
+	top$.animate "c"
 	
 
 	
