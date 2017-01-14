@@ -1,0 +1,15 @@
+{
+  "orientation" : 0,
+  "updateDelay" : 0.3,
+  "contentScale" : 1,
+  "fullScreen" : false,
+  "sharedPrototype" : 0,
+  "deviceType" : "apple-iphone-7-gold",
+  "projectId" : "756A50B7-82A4-4F32-980A-C07FDE37143C",
+  "deviceOrientation" : 0,
+  "selectedHand" : "",
+  "foldedCodeRanges" : [
+
+  ],
+  "deviceScale" : "fit"
+}
