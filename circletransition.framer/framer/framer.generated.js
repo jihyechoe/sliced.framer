@@ -48,6 +48,33 @@ window.__imported__["circlebg@2x/layers.json.js"] = [
 				"children": []
 			},
 			{
+				"objectId": "BF45D589-B3B1-401A-A90D-6F543C703B2B",
+				"kind": "group",
+				"name": "calendar",
+				"originalName": "calendar",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 137,
+					"y": 34,
+					"width": 101,
+					"height": 33
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-calendar-qky0nuq1.png",
+					"frame": {
+						"x": 137,
+						"y": 34,
+						"width": 101,
+						"height": 33
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "4E30CCE1-9FA7-4EED-B899-57A6132E8A21",
 				"kind": "group",
 				"name": "wifi1",
@@ -837,33 +864,6 @@ window.__imported__["circlebg@2x/layers.json.js"] = [
 					}
 				},
 				"children": [
-					{
-						"objectId": "BF45D589-B3B1-401A-A90D-6F543C703B2B",
-						"kind": "group",
-						"name": "calendar",
-						"originalName": "calendar",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 137,
-							"y": 34,
-							"width": 101,
-							"height": 33
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-calendar-qky0nuq1.png",
-							"frame": {
-								"x": 137,
-								"y": 34,
-								"width": 101,
-								"height": 33
-							}
-						},
-						"children": []
-					},
 					{
 						"objectId": "E215E9BB-60FF-43C2-9E81-C7266B5ACF82",
 						"kind": "group",
