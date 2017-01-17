@@ -45,7 +45,7 @@ for i in el
 	i.states.add 
 		"category":
 			opacity: 0
-			y: i.y - 20
+# 			y: i.y - 10
 		"input":
 			opacity: 1
 			y: i.y
@@ -56,20 +56,26 @@ internetitem.on Events.TouchStart, ->
 	circle.animate "input",
 		curve: MaterialCurve
 		time: MaterialTime
-		delay: "0.1"
 		
 	for i in el
 		i.animate "input",
-			delay: "0"
+			delay: "0.3"
 			curve: "ease-out"
-			time: 0.1
-			
+			time: 0.5
+
+wifi = sketch.wifi1
+wifi.states.a = 
+	opacity: 1
+	
 sketch.arrow_2.on Events.TouchStart, ->
-	sketch.wifi1.opacity = 1
 	circle.animate "category",
 		curve: MaterialCurve
 		time: MaterialTime
 		delay: "0.06"
+		
+	wifi.animate "a",
+		time: 0.5
+		curve: "ease"
 
 	for i in el
 		i.animate "category",
