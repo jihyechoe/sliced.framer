@@ -2,12 +2,11 @@
 sketch = Framer.Importer.load("imported/circlebg@2x")
 
 internetitem = sketch.internet_item
+rentitem = sketch.rent_item
 entire1 = sketch.$1_entire
 
-#02AD94
 circle = new Layer 
   width: 1600, height: 1600, backgroundColor:'#02AD94', y: -744, x: -718, scale: 0.04
-#   width: 1600, height: 1600, backgroundColor:'#000000', y: -700, x: -400
 
 circle.style =
   borderRadius:"50%"
@@ -36,23 +35,27 @@ calendar = sketch.calendar
 topnums = sketch.topnums
 topbuttons = sketch.topbutton
 addbutton = sketch.add_button
-subtitle = sketch.subtitle
+subtitle_i = sketch.subtitle_i
+subtitle_r = sketch.subtitle_r
 
-el = [nums, topnums, topbuttons, addbutton, subtitle]
+el = [nums, topnums, topbuttons, addbutton, subtitle_i, subtitle_r]
 
-for i in el
-	i.opacity = 0
-	i.states.add 
+for it in el
+	it.opacity = 0
+	it.states.add 
 		"category":
 			opacity: 0
-# 			y: i.y - 10
 		"input":
 			opacity: 1
-			y: i.y
+			y: it.y
+			
+wifi = sketch.wifi1
+rent = sketch.rent_1
 
 internetitem.on Events.TouchStart, ->
 	circle.opacity = 1
-	sketch.wifi1.opacity = 0
+	wifi.opacity = 0
+	rent.opacity = 0
 	circle.animate "input",
 		curve: MaterialCurve
 		time: MaterialTime
@@ -62,8 +65,10 @@ internetitem.on Events.TouchStart, ->
 			delay: "0.3"
 			curve: "ease-out"
 			time: 0.5
+			
+rentitem.on Events.TouchStart, ->
+	
 
-wifi = sketch.wifi1
 wifi.states.a = 
 	opacity: 1
 	
