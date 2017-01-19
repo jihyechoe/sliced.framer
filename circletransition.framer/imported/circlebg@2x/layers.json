@@ -861,10 +861,91 @@
 				]
 			},
 			{
+				"objectId": "0ADEBD2E-A9FC-44D0-B737-63AE3D8B04AC",
+				"kind": "group",
+				"name": "add_button_r",
+				"originalName": "add button r",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 602,
+					"width": 375,
+					"height": 65
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "CB2B454C-81EC-4EA6-9A10-7FCC208F1450",
+						"kind": "text",
+						"name": "add_text",
+						"originalName": "add text",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 162,
+							"y": 628,
+							"width": 49,
+							"height": 16
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "ADD",
+							"css": [
+								"/* ADD: */",
+								"font-family: Avenir-Heavy;",
+								"font-size: 22px;",
+								"color: #FF8B8B;",
+								"letter-spacing: 0;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-add_text-q0iyqjq1.png",
+							"frame": {
+								"x": 162,
+								"y": 628,
+								"width": 49,
+								"height": 16
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "24FB321A-D2F7-4760-887E-07A57457D568",
+						"kind": "group",
+						"name": "add_box",
+						"originalName": "add box",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 0,
+							"y": 602,
+							"width": 375,
+							"height": 65
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-add_box-mjrgqjmy.png",
+							"frame": {
+								"x": 0,
+								"y": 602,
+								"width": 375,
+								"height": 65
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
 				"objectId": "8D22708B-92B5-4B32-B26F-8FD73AF43911",
 				"kind": "group",
-				"name": "add_button",
-				"originalName": "add button",
+				"name": "add_button_i",
+				"originalName": "add button i",
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
@@ -880,7 +961,7 @@
 					{
 						"objectId": "11A8B839-2454-4B4F-B8B4-FC936724C674",
 						"kind": "text",
-						"name": "add_text",
+						"name": "add_text1",
 						"originalName": "add text",
 						"maskFrame": null,
 						"layerFrame": {
@@ -915,7 +996,7 @@
 					{
 						"objectId": "2884C272-4CD0-41C1-B808-D3AC84753E4D",
 						"kind": "group",
-						"name": "add_box",
+						"name": "add_box1",
 						"originalName": "add box",
 						"maskFrame": null,
 						"layerFrame": {

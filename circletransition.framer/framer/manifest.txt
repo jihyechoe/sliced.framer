@@ -1,25 +1,25 @@
 app.coffee
-framer/backups/backup-2017-01-14 01.23.02.coffee
-framer/backups/backup-2017-01-14 01.24.02.coffee
-framer/backups/backup-2017-01-14 01.25.02.coffee
-framer/backups/backup-2017-01-14 01.36.02.coffee
-framer/backups/backup-2017-01-14 01.37.02.coffee
-framer/backups/backup-2017-01-14 01.38.02.coffee
-framer/backups/backup-2017-01-16 21.17.53.coffee
-framer/backups/backup-2017-01-16 21.19.53.coffee
-framer/backups/backup-2017-01-16 21.22.53.coffee
-framer/backups/backup-2017-01-16 21.24.53.coffee
-framer/backups/backup-2017-01-16 21.25.53.coffee
-framer/backups/backup-2017-01-16 23.14.53.coffee
-framer/backups/backup-2017-01-16 23.15.53.coffee
-framer/backups/backup-2017-01-16 23.28.53.coffee
-framer/backups/backup-2017-01-16 23.52.53.coffee
-framer/backups/backup-2017-01-16 23.53.53.coffee
-framer/backups/backup-2017-01-17 02.42.27.coffee
-framer/backups/backup-2017-01-17 02.43.27.coffee
-framer/backups/backup-2017-01-17 02.44.27.coffee
-framer/backups/backup-2017-01-17 04.11.15.coffee
-framer/backups/backup-2017-01-17 04.12.15.coffee
+framer/backups/backup-2017-01-18 16.55.58.coffee
+framer/backups/backup-2017-01-18 16.56.58.coffee
+framer/backups/backup-2017-01-18 16.57.58.coffee
+framer/backups/backup-2017-01-18 16.58.58.coffee
+framer/backups/backup-2017-01-18 16.59.58.coffee
+framer/backups/backup-2017-01-18 17.00.59.coffee
+framer/backups/backup-2017-01-18 17.01.58.coffee
+framer/backups/backup-2017-01-18 17.04.58.coffee
+framer/backups/backup-2017-01-18 17.09.58.coffee
+framer/backups/backup-2017-01-18 17.11.58.coffee
+framer/backups/backup-2017-01-18 17.12.58.coffee
+framer/backups/backup-2017-01-18 17.13.58.coffee
+framer/backups/backup-2017-01-18 17.17.58.coffee
+framer/backups/backup-2017-01-18 17.18.58.coffee
+framer/backups/backup-2017-01-18 17.19.58.coffee
+framer/backups/backup-2017-01-18 17.20.58.coffee
+framer/backups/backup-2017-01-18 17.22.58.coffee
+framer/backups/backup-2017-01-18 17.23.58.coffee
+framer/backups/backup-2017-01-18 22.31.20.coffee
+framer/backups/backup-2017-01-18 22.32.20.coffee
+framer/backups/backup-2017-01-18 22.35.20.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -42,7 +42,9 @@ framer/style.css
 framer/version
 imported/circlebg@2x/images/Layer-$1_entire-otrfrejb.png
 imported/circlebg@2x/images/Layer-add_box-mjg4nemy.png
+imported/circlebg@2x/images/Layer-add_box-mjrgqjmy.png
 imported/circlebg@2x/images/Layer-add_text-mtfboei4.png
+imported/circlebg@2x/images/Layer-add_text-q0iyqjq1.png
 imported/circlebg@2x/images/Layer-arrow_2-nefbnkvf.png
 imported/circlebg@2x/images/Layer-back-qzc0rdc3.png
 imported/circlebg@2x/images/Layer-calendar-qky0nuq1.png
