@@ -4,6 +4,9 @@
   "contentScale" : 1,
   "fullScreen" : false,
   "sharedPrototype" : 0,
+  "propertyPanelToggleStates" : {
+
+  },
   "deviceType" : "apple-iphone-7-gold",
   "projectId" : "9CD40EBA-3B5B-4A05-AFA5-FFD23FF038C1",
   "deviceOrientation" : 0,
