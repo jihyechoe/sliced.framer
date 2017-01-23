@@ -1,4 +1,19 @@
 app.coffee
+framer/backups/backup-2017-01-23 00.41.25.coffee
+framer/backups/backup-2017-01-23 00.42.25.coffee
+framer/backups/backup-2017-01-23 00.43.25.coffee
+framer/backups/backup-2017-01-23 00.44.25.coffee
+framer/backups/backup-2017-01-23 00.48.27.coffee
+framer/backups/backup-2017-01-23 00.49.25.coffee
+framer/backups/backup-2017-01-23 00.51.25.coffee
+framer/backups/backup-2017-01-23 00.53.25.coffee
+framer/backups/backup-2017-01-23 00.54.25.coffee
+framer/backups/backup-2017-01-23 00.55.25.coffee
+framer/backups/backup-2017-01-23 00.56.25.coffee
+framer/backups/backup-2017-01-23 00.59.25.coffee
+framer/backups/backup-2017-01-23 01.00.25.coffee
+framer/backups/backup-2017-01-23 01.01.25.coffee
+framer/backups/backup-2017-01-23 01.02.25.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -15,7 +30,39 @@ framer/images/icon-152.png
 framer/images/icon-180.png
 framer/images/icon-192.png
 framer/images/icon-76.png
+framer/manifest.txt
 framer/preview.png
 framer/style.css
 framer/version
+imported/gradualchange@1x/images/Layer-add-qzhdqzdc.png
+imported/gradualchange@1x/images/Layer-arrow-otk3qtbe.png
+imported/gradualchange@1x/images/Layer-bottom_box-nza3rung.png
+imported/gradualchange@1x/images/Layer-bottom_desc-q0rdoda5.png
+imported/gradualchange@1x/images/Layer-end-qky3muvb.png
+imported/gradualchange@1x/images/Layer-p1-qtg3oeu1.png
+imported/gradualchange@1x/images/Layer-p2-mzrfmziy.png
+imported/gradualchange@1x/images/Layer-p3-quiyotfd.png
+imported/gradualchange@1x/images/Layer-price-njk3rtje.png
+imported/gradualchange@1x/images/Layer-title-rjqxmdu3.png
+imported/gradualchange@1x/images/Layer-totalbill-qui3ouez.png
+imported/gradualchange@1x/images/Layer-totalbillbox-q0zdquqy.png
+imported/gradualchange@1x/images/Layer-yourportion-rdqwrtbd.png
+imported/gradualchange@1x/layers.json
+imported/gradualchange@1x/layers.json.js
+imported/gradualchange@2x/images/Layer-add-qzhdqzdc.png
+imported/gradualchange@2x/images/Layer-arrow-otk3qtbe.png
+imported/gradualchange@2x/images/Layer-bottom_box-nza3rung.png
+imported/gradualchange@2x/images/Layer-bottom_desc-q0rdoda5.png
+imported/gradualchange@2x/images/Layer-p1-qtg3oeu1.png
+imported/gradualchange@2x/images/Layer-p2-mzrfmziy.png
+imported/gradualchange@2x/images/Layer-p3-quiyotfd.png
+imported/gradualchange@2x/images/Layer-price-njk3rtje.png
+imported/gradualchange@2x/images/Layer-status-qznbmdrc.png
+imported/gradualchange@2x/images/Layer-title-rjqxmdu3.png
+imported/gradualchange@2x/images/Layer-top_back-mjm5mjy1.png
+imported/gradualchange@2x/images/Layer-totalbill-qui3ouez.png
+imported/gradualchange@2x/images/Layer-totalbillbox-q0zdquqy.png
+imported/gradualchange@2x/images/Layer-yourportion-rdqwrtbd.png
+imported/gradualchange@2x/layers.json
+imported/gradualchange@2x/layers.json.js
 index.html

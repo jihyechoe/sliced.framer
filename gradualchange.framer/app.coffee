@@ -1,3 +1,27 @@
-# I could not find an app.coffee file in your project so an empty one was created.
+# Import file "gradualchange" (sizes and positions are scaled 1:2)
+sketch = Framer.Importer.load("imported/gradualchange@2x")
 
-# If you worked in javascript before you can translate your app.js file to coffee script at: http://js2coffee.org/
+topback = sketch.top_back
+billbox = sketch.totalbillbox
+whole = sketch.end
+
+scroll = new ScrollComponent
+	wrap: topback
+scroll.content.clip = false
+scroll.scrollVertical = false
+
+scroll.onMove ->
+# 	if scroll.scrollX < 0
+# 		xPos = 0
+# 
+# 	else
+# 		xPos = scroll.scrollX
+# 
+# 	for header, i in headers
+# 
+# 		breakPoint = scroll.content.width/headers.length
+# 
+# 		header.opacity = 
+# 			Utils.modulate(xPos, [(i - 1) * breakPoint, i * breakPoint], [0, 1], true)
+
+	

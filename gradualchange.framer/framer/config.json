@@ -1,17 +1,18 @@
 {
+  "orientation" : 0,
+  "updateDelay" : 0.3,
+  "contentScale" : 1,
+  "fullScreen" : false,
+  "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
 
   },
+  "deviceType" : "apple-iphone-7-gold",
+  "projectId" : "75CFE754-60A3-435D-B158-C7B01150425D",
   "deviceOrientation" : 0,
-  "sharedPrototype" : 0,
-  "contentScale" : 1,
-  "deviceType" : "fullscreen",
   "selectedHand" : "",
-  "updateDelay" : 0.3,
-  "deviceScale" : 1,
   "foldedCodeRanges" : [
 
   ],
-  "orientation" : 0,
-  "projectId" : "75CFE754-60A3-435D-B158-C7B01150425D"
+  "deviceScale" : "fit"
 }
