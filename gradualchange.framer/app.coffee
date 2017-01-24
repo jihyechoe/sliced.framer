@@ -2,15 +2,22 @@
 sketch = Framer.Importer.load("imported/gradualchange@2x")
 
 topback = sketch.top_back
-billbox = sketch.totalbillbox
 whole = sketch.end
 
+header = new Layer
+header.width = Screen.width * 2
+header.height = 293 * 2
+
+billbox = new Layer
+billbox.width = Screen.width * 2
+billbox.height = 79 * 2
+billbox.y = 293 * 2
+
 scroll = new ScrollComponent
-	wrap: topback
-scroll.content.clip = false
+	wrap: sketch.end
 scroll.scrollVertical = false
 
-scroll.onMove ->
+# scroll.onMove ->
 # 	if scroll.scrollX < 0
 # 		xPos = 0
 # 
