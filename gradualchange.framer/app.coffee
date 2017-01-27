@@ -3,32 +3,27 @@ sketch = Framer.Importer.load("imported/gradualchange@2x")
 
 topback = sketch.top_back
 whole = sketch.end
+totalbill = sketch.totalbill
+status = sketch.status
 
 header = new Layer
-header.width = Screen.width * 2
-header.height = 293 * 2
+	width: Screen.width * 2
+	height: 293 * 2
+	backgroundColor: "#FF8B8B"
 
 billbox = new Layer
-billbox.width = Screen.width * 2
-billbox.height = 79 * 2
-billbox.y = 293 * 2
+	width: Screen.width * 2
+	height: 79 * 2
+	y: 293 * 2
+	backgroundColor: "#FFE7E7"
+whole.addChild(billbox)
+billbox.placeBehind(status)
 
 scroll = new ScrollComponent
-	wrap: sketch.end
+	wrap: header
 scroll.scrollVertical = false
+whole.addChild(scroll)
+scroll.placeBehind(status)
 
-# scroll.onMove ->
-# 	if scroll.scrollX < 0
-# 		xPos = 0
-# 
-# 	else
-# 		xPos = scroll.scrollX
-# 
-# 	for header, i in headers
-# 
-# 		breakPoint = scroll.content.width/headers.length
-# 
-# 		header.opacity = 
-# 			Utils.modulate(xPos, [(i - 1) * breakPoint, i * breakPoint], [0, 1], true)
-
-	
+scroll.onMove ->
+	header.style.background = "-webkit-linear-gradient(left, #FF8B8B 0%, #D6F0FF 100%)"

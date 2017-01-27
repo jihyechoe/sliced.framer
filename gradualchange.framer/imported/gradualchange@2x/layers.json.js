@@ -169,6 +169,33 @@ window.__imported__["gradualchange@2x/layers.json.js"] = [
 				"children": []
 			},
 			{
+				"objectId": "CFCAD256-A625-46A9-8C68-DB834B4BB610",
+				"kind": "group",
+				"name": "totalbillbox",
+				"originalName": "totalbillbox",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 293,
+					"width": 687,
+					"height": 79
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-totalbillbox-q0zdquqy.png",
+					"frame": {
+						"x": 0,
+						"y": 293,
+						"width": 687,
+						"height": 79
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "CDC809EF-6D7E-4061-8C85-A06269472D21",
 				"kind": "group",
 				"name": "bottom_desc",
@@ -369,6 +396,33 @@ window.__imported__["gradualchange@2x/layers.json.js"] = [
 						"y": 5,
 						"width": 364,
 						"height": 11
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "23926507-133D-4E67-9577-7F3A45D66DAD",
+				"kind": "group",
+				"name": "top_back",
+				"originalName": "top back",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 687,
+					"height": 293
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-top_back-mjm5mjy1.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 687,
+						"height": 293
 					}
 				},
 				"children": []
